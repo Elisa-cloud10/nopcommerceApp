@@ -40,7 +40,7 @@ try:
     driver.find_element(By.CSS_SELECTOR, ".login-button").click()
 
     # 登录后等几秒看下结果
-    time.sleep(5)
+    time.sleep(10)
     print("当前页面标题是:", driver.title)
 
 except Exception as e:
