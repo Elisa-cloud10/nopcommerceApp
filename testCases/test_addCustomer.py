@@ -43,8 +43,8 @@ class Test_003_AddCustomer:
         self.addcust.setCompanyName("Prize")
         self.addcust.setAdminContent("any")
         self.addcust.clickOnSave()
-        sleep(7)
-        self.driver.close()
+        sleep(2)
+        # self.driver.close()
 
         self.msg = self.driver.find_element(By.TAG_NAME, "body").text
         if 'customer has been added successfully' in self.msg:
