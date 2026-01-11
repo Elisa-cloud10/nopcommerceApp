@@ -30,7 +30,7 @@ class Test_003_AddCustomer:
 
         self.addcust = AddCustomer(self.driver)
         self.addcust.clickOnCustomerMenu()
-        sleep(2)
+        sleep(4)
         self.addcust.clickOnCustomerMenu()
         self.addcust.clickOnCustomerMenuItem()
         self.addcust.clickOnAddNewCustomerPage()
